@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FAA81EE173402500086BD51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAA81ED173402500086BD51 /* UIKit.framework */; };
+		3FAA81F0173402500086BD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAA81EF173402500086BD51 /* Foundation.framework */; };
+		3FAA81F2173402500086BD51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAA81F1173402500086BD51 /* CoreGraphics.framework */; };
+		3FAA81F8173402500086BD51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA81F6173402500086BD51 /* InfoPlist.strings */; };
+		3FAA81FA173402500086BD51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA81F9173402500086BD51 /* main.m */; };
+		3FAA81FE173402500086BD51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA81FD173402500086BD51 /* AppDelegate.m */; };
+		3FAA8200173402500086BD51 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA81FF173402500086BD51 /* Default.png */; };
+		3FAA8202173402500086BD51 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA8201173402500086BD51 /* Default@2x.png */; };
+		3FAA8204173402500086BD51 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA8203173402500086BD51 /* Default-568h@2x.png */; };
+		3FAA8207173402500086BD51 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAA8205173402500086BD51 /* MainStoryboard.storyboard */; };
+		3FAA820A173402500086BD51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA8209173402500086BD51 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FAA81E9173402500086BD51 /* Practice with the hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice with the hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAA81ED173402500086BD51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FAA81EF173402500086BD51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FAA81F1173402500086BD51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FAA81F5173402500086BD51 /* Practice with the hub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Practice with the hub-Info.plist"; sourceTree = "<group>"; };
+		3FAA81F7173402500086BD51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FAA81F9173402500086BD51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FAA81FB173402500086BD51 /* Practice with the hub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practice with the hub-Prefix.pch"; sourceTree = "<group>"; };
+		3FAA81FC173402500086BD51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FAA81FD173402500086BD51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FAA81FF173402500086BD51 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3FAA8201173402500086BD51 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3FAA8203173402500086BD51 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3FAA8206173402500086BD51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3FAA8208173402500086BD51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FAA8209173402500086BD51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FAA81E6173402500086BD51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAA81EE173402500086BD51 /* UIKit.framework in Frameworks */,
+				3FAA81F0173402500086BD51 /* Foundation.framework in Frameworks */,
+				3FAA81F2173402500086BD51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FAA81DE173402500086BD51 = {
+			isa = PBXGroup;
+			children = (
+				3FAA81F3173402500086BD51 /* Practice with the hub */,
+				3FAA81EC173402500086BD51 /* Frameworks */,
+				3FAA81EA173402500086BD51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FAA81EA173402500086BD51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FAA81E9173402500086BD51 /* Practice with the hub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FAA81EC173402500086BD51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FAA81ED173402500086BD51 /* UIKit.framework */,
+				3FAA81EF173402500086BD51 /* Foundation.framework */,
+				3FAA81F1173402500086BD51 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FAA81F3173402500086BD51 /* Practice with the hub */ = {
+			isa = PBXGroup;
+			children = (
+				3FAA81FC173402500086BD51 /* AppDelegate.h */,
+				3FAA81FD173402500086BD51 /* AppDelegate.m */,
+				3FAA8205173402500086BD51 /* MainStoryboard.storyboard */,
+				3FAA8208173402500086BD51 /* ViewController.h */,
+				3FAA8209173402500086BD51 /* ViewController.m */,
+				3FAA81F4173402500086BD51 /* Supporting Files */,
+			);
+			path = "Practice with the hub";
+			sourceTree = "<group>";
+		};
+		3FAA81F4173402500086BD51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FAA81F5173402500086BD51 /* Practice with the hub-Info.plist */,
+				3FAA81F6173402500086BD51 /* InfoPlist.strings */,
+				3FAA81F9173402500086BD51 /* main.m */,
+				3FAA81FB173402500086BD51 /* Practice with the hub-Prefix.pch */,
+				3FAA81FF173402500086BD51 /* Default.png */,
+				3FAA8201173402500086BD51 /* Default@2x.png */,
+				3FAA8203173402500086BD51 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FAA81E8173402500086BD51 /* Practice with the hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAA820D173402500086BD51 /* Build configuration list for PBXNativeTarget "Practice with the hub" */;
+			buildPhases = (
+				3FAA81E5173402500086BD51 /* Sources */,
+				3FAA81E6173402500086BD51 /* Frameworks */,
+				3FAA81E7173402500086BD51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practice with the hub";
+			productName = "Practice with the hub";
+			productReference = 3FAA81E9173402500086BD51 /* Practice with the hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FAA81E0173402500086BD51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Student;
+			};
+			buildConfigurationList = 3FAA81E3173402500086BD51 /* Build configuration list for PBXProject "Practice with the hub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FAA81DE173402500086BD51;
+			productRefGroup = 3FAA81EA173402500086BD51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FAA81E8173402500086BD51 /* Practice with the hub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FAA81E7173402500086BD51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAA81F8173402500086BD51 /* InfoPlist.strings in Resources */,
+				3FAA8200173402500086BD51 /* Default.png in Resources */,
+				3FAA8202173402500086BD51 /* Default@2x.png in Resources */,
+				3FAA8204173402500086BD51 /* Default-568h@2x.png in Resources */,
+				3FAA8207173402500086BD51 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FAA81E5173402500086BD51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAA81FA173402500086BD51 /* main.m in Sources */,
+				3FAA81FE173402500086BD51 /* AppDelegate.m in Sources */,
+				3FAA820A173402500086BD51 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FAA81F6173402500086BD51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FAA81F7173402500086BD51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FAA8205173402500086BD51 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FAA8206173402500086BD51 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FAA820B173402500086BD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FAA820C173402500086BD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FAA820E173402500086BD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Practice with the hub/Practice with the hub-Prefix.pch";
+				INFOPLIST_FILE = "Practice with the hub/Practice with the hub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FAA820F173402500086BD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Practice with the hub/Practice with the hub-Prefix.pch";
+				INFOPLIST_FILE = "Practice with the hub/Practice with the hub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FAA81E3173402500086BD51 /* Build configuration list for PBXProject "Practice with the hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAA820B173402500086BD51 /* Debug */,
+				3FAA820C173402500086BD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FAA820D173402500086BD51 /* Build configuration list for PBXNativeTarget "Practice with the hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAA820E173402500086BD51 /* Debug */,
+				3FAA820F173402500086BD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FAA81E0173402500086BD51 /* Project object */;
+}
